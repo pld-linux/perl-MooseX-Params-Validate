@@ -6,7 +6,7 @@
 %define	pdir	MooseX
 %define	pnam	Params-Validate
 Summary:	MooseX::Params::Validate - an extension of Params::Validate for using Moose's types
-#Summary(pl.UTF-8):	
+Summary(pl.UTF-8):	MooseX::Params::Validate - rozszerzenie Params::Validate o użycie typów Moose
 Name:		perl-MooseX-Params-Validate
 Version:	0.09
 Release:	1
@@ -34,10 +34,8 @@ be considered the "official" one by any means though.
 You might also want to explore MooseX::Method::Signatures and
 MooseX::Declare
 
-
-
-# %description -l pl.UTF-8
-# TODO
+%description -l pl.UTF-8
+MooseX::Params::Validate - rozszerzenie Params::Validate o użycie typów Moose
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
@@ -52,7 +50,7 @@ MooseX::Declare
 %install
 rm -rf $RPM_BUILD_ROOT
 
-%{__make} pure_install \
+%{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
 
 %clean
