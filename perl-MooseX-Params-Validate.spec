@@ -60,5 +60,6 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc ChangeLog README
+%dir %{perl_vendorlib}/MooseX/Params
 %{perl_vendorlib}/MooseX/Params/*.pm
 %{_mandir}/man3/*
