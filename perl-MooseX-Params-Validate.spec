@@ -8,12 +8,12 @@
 Summary:	MooseX::Params::Validate - an extension of Params::Validate for using Moose's types
 Summary(pl.UTF-8):	MooseX::Params::Validate - rozszerzenie Params::Validate o użycie typów Moose
 Name:		perl-MooseX-Params-Validate
-Version:	0.12
+Version:	0.16
 Release:	1
 License:	Perl
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/MooseX/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	028c58ff0431b45e13f70f9d819e5b67
+# Source0-md5:	625a7572196ba61c98e6640c11ffa2c5
 URL:		http://search.cpan.org/dist/MooseX-Params-Validate/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
